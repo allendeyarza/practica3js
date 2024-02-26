@@ -1,10 +1,10 @@
 # practica3js
 
-#Guess the Author Game
+- Guess the Author Game
 
 El juego "Guess the Author" es un desafío divertido e educativo que pone a prueba tu conocimiento sobre citas y autores literarios. El objetivo del juego es adivinar quién es el autor de una cita específica entre varias opciones presentadas.
 
-#Mecánica del Juego:
+- Mecánica del Juego:
 
 Cita Aleatoria: En cada ronda, el juego selecciona aleatoriamente una cita famosa de algún autor literario. Esta cita se presenta al jugador.
 
