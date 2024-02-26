@@ -1,0 +1,49 @@
+body { /* estilos del body*/
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Portada.png') center/cover no-repeat; /* Si la imagen es de fondo la pongo aquí no en el html */
+    position: relative;
+}
+
+.cover-container { /*estilos del contenedor, como es una clase. y nombre de la clase*/
+    text-align: center;
+    position: relative;
+    padding: 50px; 
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    z-index: 2; 
+}
+.overlay { /*aqui editamos la capa opaca, clase overlay*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /*le doy opacidad*/
+}
+
+
+.cover-title { /*titulo de la portada, clase cover-title*/
+    color: #000080; /* código hexadeciaml de azul marino */; 
+    font-size: 3em; 
+    z-index: 2; /* ponemos el indice del eje z dos para estar por encima del de la capa opaca*/
+}
+
+.start-button {
+    margin-top: 20px;
+    font-size: 3em; 
+    padding: 15px 30px; 
+    z-index: 2; /*al mismo nivel que el titulo y por encima de la capa opaca*/
+
+}
+
